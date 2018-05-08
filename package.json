@@ -1,0 +1,36 @@
+{
+  "name": "yu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "html-withimg-loader": "^0.1.16",
+    "node-sass": "^4.9.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "sass-loader": "^7.0.1",
+    "style-css": "^1.0.2",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.7.0"
+  },
+  "dependencies": {
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "plugin": "^0.3.3"
+  }
+}
